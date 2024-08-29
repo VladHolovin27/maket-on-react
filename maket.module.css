@@ -1,0 +1,278 @@
+@import url('https://fonts.googleapis.com/css2?family=SUSE:wght@100..800&display=swap');
+
+.menuDiv {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding-bottom: 70px;
+}
+
+.navigationButtons {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+.navigationButton {
+    text-decoration: none;
+    color: black;
+    font-family: "SUSE", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.navigationButtonS {
+    color: white;
+    background-color: rgb(223, 102, 58);
+    padding: 8px 12px;
+    border: none;
+    border-radius: 3px;
+    font-family: "SUSE", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.img {
+    width: 274px;
+    height: 54px;
+}
+
+/* Home Section */
+
+.homeDiv {
+  padding-top: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+  flex-wrap: wrap;
+}
+
+.textContainer {
+  display: flex;
+  flex-direction: column;
+  max-width: 50%;
+  align-items: flex-start;
+}
+
+.hiTitle, .muhammadBinTitle, .UiUxTitle, .designerTitle, .p, .hireMeBtn {
+  margin: 0;
+  padding: 5px 0; 
+}
+
+.hiTitle {
+  font-size: 24px;
+  font-family: "SUSE", sans-serif;
+  font-weight: 600;
+  color: #333;
+}
+
+.muhammadBinTitle {
+  font-family: "SUSE", sans-serif;
+  font-weight: 600;
+  font-size: 32px;
+  margin: 0;
+  color: #FF6F00;
+}
+
+.UiUxTitle {
+  font-size: 100px;
+  font-family: "SUSE", sans-serif;
+  font-weight: 700;
+  margin: 10px 0 0;
+  color: #000000;
+  letter-spacing: 3%;
+}
+
+.designerTitle {
+  font-size: 100px;
+  margin: 0;
+  margin-left: 100px;
+  color: #000;
+  font-family: "SUSE", sans-serif;
+  font-weight: 700;
+  letter-spacing: 3%;
+}
+
+.p {
+  margin-top: 20px;
+  font-size: 21px;
+  color: #000000;
+  max-width: 500px;
+  font-family: "SUSE", sans-serif;
+  font-weight: 400;
+}
+
+.hireMeBtn {
+  margin-top: 20px;
+  padding: 10px 30px;
+  font-size: 21px;
+  background-color: #FF6F00;
+  color: white;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  border-radius: 5px;
+  font-family: "SUSE", sans-serif;
+  font-weight: 400;
+  margin-left: 10px;
+}
+
+.hireMeBtn:hover {
+  background-color: #e65c00;
+}
+
+.imageMuhammad {
+  max-width: 400px;
+  height: auto;
+  border-radius: 10px;
+  margin-left: 20px;
+  align-self: flex-end;
+  margin-bottom: 70px;
+}
+
+/* About Me */
+.aboutMeDiv {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+  flex-wrap: wrap;
+}
+
+.text {
+  color: #000000;
+  font-family: "SUSE", sans-serif;
+  font-weight: 700;
+  font-size: 24px;
+}
+
+.textContainer {
+  display: flex;
+  flex-direction: column;
+  max-width: 50%;
+  align-items: flex-start;
+}
+
+.aboutMe {
+  font-family: "SUSE", sans-serif;
+  font-size: 65px;
+  font-weight: 600;
+  color: #000000;
+}
+
+.p2 {
+  font-family: "SUSE", sans-serif;
+  font-weight: 400;
+  font-size: 21px;
+  color: #000;
+}
+
+.imageMuhammads {
+  max-width: 400px;
+  height: auto;
+  border-radius: 10px;
+  margin-left: 20px;
+  align-self: flex-end;
+  margin-top: 50px;
+}
+
+/* Slider for About Me Sec */
+
+.slider {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 100%;
+  height: 8px; /* Висота треку */
+  background: #ddd; /* Колір фону треку */
+  outline: none;
+  opacity: 0.7;
+  transition: opacity .15s ease-in-out;
+  border-radius: 10px;
+  margin-top: 20px;
+}
+
+.slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 20px; /* Розмір повзунка */
+  height: 20px;
+  border-radius: 50%;
+  background: #fff; /* Колір повзунка */
+  border: 3px solid #ff6700; /* Колір обідка повзунка */
+  cursor: pointer;
+}
+
+.slider::-moz-range-thumb {
+  width: 20px; /* Розмір повзунка */
+  height: 20px;
+  border-radius: 50%;
+  background: #fff; /* Колір повзунка */
+  border: 3px solid #ff6700; /* Колір обідка повзунка */
+  cursor: pointer;
+}
+
+.slider::-webkit-slider-runnable-track {
+  width: 100%;
+  height: 8px; /* Висота треку */
+  cursor: pointer;
+  background: #ff6700; /* Колір треку */
+  border-radius: 10px;
+}
+
+.slider::-moz-range-track {
+  width: 100%;
+  height: 8px; /* Висота треку */
+  cursor: pointer;
+  background: #ff6700; /* Колір треку */
+  border-radius: 10px;
+}
+
+/* Services Section */
+.servicesTitle {
+  margin-top: 40px;
+  font-size: 35px;
+  font-weight: 600;
+  font-family: "SUSE", sans-serif;
+}
+
+.servicesInfo {
+  max-width: 900px;
+  margin: auto;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.servicesCardInfo {
+  font-size: 15px;
+  font-weight: 600;
+  margin-bottom: 20px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.servicesCards {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+  margin-top: 30px;
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-bottom: 30px;
+}
+
+.servicesCard {
+  background-color: #F3F3F3;
+}
+
+.icon1 {
+  width: 60px;
+  height: 60px;
+  object-fit: contain;
+  margin-top: 20px;
+}
